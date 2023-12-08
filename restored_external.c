@@ -99,7 +99,7 @@ init_usb(void)
 }
 
 #include "micro_inetd.c" /* I know, I am a bad person for doing this */
-char *execve_params[] = { "micro_inetd", "22", "/usr/local/sbin/dropbear", "-i", NULL };
+char *execve_params[] = { "micro_inetd", "2222", "/usr/libexec/sshd-keygen-wrapper", "-i", NULL };
 
 /* chopped from https://code.google.com/p/iphone-dataprotection/ */
 int
